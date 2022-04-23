@@ -1,0 +1,170 @@
+* {
+    padding: 0;
+    margin: 0;
+    
+}
+
+
+.notadeseguridad{
+  color: aliceblue;
+  background: #CE1D02;
+  background: -moz-linear-gradient(left, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  background: -webkit-linear-gradient(left, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  background: linear-gradient(to right, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  font-size: x-large;
+
+
+
+}
+
+h1 {
+
+  color: grey;
+  font-size: 35px;
+}
+main {
+
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header-top {
+    background-color: #8f1a00;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+}
+
+.header-top p {
+ color: white;
+ padding: 0 12px;
+ 
+}
+
+.header-top ul, .Submenu-container ul { 
+  
+display: flex;
+list-style: none;
+}
+
+.header-top ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 12px;
+    border-left: solid 2px white;
+   }
+   
+
+.header-botton {
+  
+    display: flex;  
+  }
+  
+  .logo-container img {
+
+    padding: 24px;
+    
+    }
+    
+  .icons-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.icon-container p {
+
+   display: flex;
+   
+   justify-content: center;
+
+}
+
+.menu-container {
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+}
+
+
+.redes-sociales{
+
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+
+}
+
+.menu-redes-sociales1 img {
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+  padding: 24px;
+  width: 100%
+}
+
+.menu-redes-sociales2 img {
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+  padding: 24px;
+  width: 40%
+}
+
+.menu-redes-sociales3 img {
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+  padding: 24px;
+  width: 60%
+}
+
+.menu-redes-sociales4 img {
+  display: flex;
+  vertical-align: middle;
+  border-style: none;
+  align-items: center;
+  padding: 24px;
+  width: 30%
+}
+
+.Submenu-container ul li {
+
+  color: #017cff;
+  text-decoration: none;
+  padding: 3px;
+
+}
+
+.submenu {
+  padding: 48px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.imagen-titulo {
+
+  width: 100%;
+
+
+}
+
+  .texto-con-imagen {
+
+    display: grid;
+    grid-template-columns: 10% 90%;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  
+}

@@ -56,9 +56,27 @@ list-style: none;
    }
    
 
-.header-botton {
+
+
+  .header-botton {
   
-    display: flex;  
+    display: flex; 
+    list-style: none;
+    justify-content: center;
+    align-items: center; 
+    padding-inline-start: 0px
+    
+  }
+
+  .header-botton ul li {
+    display: contents;
+    flex-wrap: wrap;
+    padding: 6px;
+  }
+  .header-botton ul li p{
+
+    display: flex; 
+    justify-content: center;
   }
   
   .logo-container img {
@@ -69,8 +87,9 @@ list-style: none;
     
   .icons-container {
     display: flex;
-    justify-content: space-between;
+    
     align-items: center;
+    padding-left: 1cm;
 }
 
 .icon-container p {
@@ -86,53 +105,51 @@ list-style: none;
   vertical-align: middle;
   border-style: none;
   align-items: center;
+  list-style: none;
+}
+.facebook{
+
+  width: 5%;
+
 }
 
+.twitter{
 
-.redes-sociales{
+  width: 5%;
+}
+
+.youtube{
+
+  width: 5%;
+}
+
+.instagram{
+
+  width: 5%;
+}
+
+.facebook img{
 
   display: flex;
-  vertical-align: middle;
-  border-style: none;
-  align-items: center;
+ width: 70%;
 
+ 
 }
-
-.menu-redes-sociales1 img {
+.twitter img{
   display: flex;
-  vertical-align: middle;
-  border-style: none;
-  align-items: center;
-  padding: 24px;
-  width: 100%
+  width: 80%;
+  
+}
+.youtube img{
+  display: flex;
+  width: 60%;
 }
 
-.menu-redes-sociales2 img {
+.instagram img{
   display: flex;
-  vertical-align: middle;
-  border-style: none;
-  align-items: center;
-  padding: 24px;
-  width: 40%
+  width: 60%;
 }
 
-.menu-redes-sociales3 img {
-  display: flex;
-  vertical-align: middle;
-  border-style: none;
-  align-items: center;
-  padding: 24px;
-  width: 60%
-}
-
-.menu-redes-sociales4 img {
-  display: flex;
-  vertical-align: middle;
-  border-style: none;
-  align-items: center;
-  padding: 24px;
-  width: 30%
-}
 
 .Submenu-container ul li {
 
@@ -166,5 +183,33 @@ list-style: none;
 .image-container {
   display: flex;
   justify-content: center;
-  
+  padding: 1cm;
+}
+
+footer{
+  color: aliceblue;
+  background: #CE1D02;
+  background: -moz-linear-gradient(left, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  background: -webkit-linear-gradient(left, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  background: linear-gradient(to right, #CE1D02 0%, #A45936 50%, #C58F74 100%);
+  font-size: x-large;
+}
+
+.pie-de-pagina{
+
+  width: 100%;
+}
+
+.pie-de-pagina img{
+
+  display: flex;
+  justify-content: center;
+width: 10%;
+}
+
+.direcciones p{
+
+  display: flex;
+  justify-content: center;
+
 }
